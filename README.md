@@ -24,4 +24,14 @@ import matplotlib.pyplot as plt
 import os
 ```
 
+## Deep Learning Python Packages:
 
+For this module, you will be building neural networks using a specific python package. There are three major packages that are popular for deep learning in python, namely: `tensorflow`, `pytorch` and `jax`. They offer different levels of abstraction, in the following order from highest level to lowest level:
+
+1) [`tensorflow` / `keras`](https://www.tensorflow.org/): offers a high-level interface for building neural networks (along with a lot of lower-level functionality, if desired); this package was quite popular for research purposes but is now being overtaken by the other two listed packages; if you are less familiar with python, we recommend this package.
+
+2) [`pytorch`](https://pytorch.org/): offers a lower level of abstraction but remains accessible to users familiar with python; this is the most common deep leanring package today, in both research and industry; if you are comfortable with python and/ or willing to put in some extra effort to learn some basics, we recommend this package.
+
+3) [`jax`](https://docs.jax.dev/en/latest/): this is the newest package and offers the lowest level of abstraction (i.e., you may have to code the specific behaviours of some types of layers etc.); this is growing rapidly in usage and lots of other packages that depend on jax are being released, which allow for higher levels of abstraction; if you are comfortable with python and want to explore the bleeding-edge you may use this package (however, specific support from the teaching team may be limited).
+
+Please pick one of these packages for the entirety of this module, based on your experience with python or deep leanring. Skills learnt on one of these packages are easily transferred to another so you can always quickly learn the other two pacakges in your own time. 
